@@ -1,0 +1,28 @@
+Package: ssurvdr
+Title: Sparse Survival Dimension Reduction for High-Dimensional
+        Censored Data
+Version: 0.1.0
+Authors@R: 
+    person("Kabir Opeyemi", "Olorede", , "kabir.olorede@kwasu.edu.ng", role = c("aut", "cre"))
+Description: Implements sparse survival sufficient dimension reduction methods
+    for high-dimensional censored data, including covariance-stabilised SAVE,
+    Maximum Entropy Covariance estimation, information-complexity-guided
+    variable weighting, dual-space high-dimensional SAVE computation, row-wise
+    post-estimation sparsification paths, and Cox proportional hazards model
+    selection.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Depends: R (>= 4.1.0)
+Imports: stats, MASS, survival
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+URL: https://github.com/ilovemaths/ssurvdr
+BugReports: https://github.com/ilovemaths/ssurvdr/issues
+NeedsCompilation: no
+Packaged: 2026-10-11 19:06:28 UTC; DR OLOREDE
+Author: Kabir Opeyemi Olorede [aut, cre]
+Maintainer: Kabir Opeyemi Olorede <kabir.olorede@kwasu.edu.ng>
+Repository: CRAN
+Date/Publication: 2026-10-21 15:50:01 UTC
